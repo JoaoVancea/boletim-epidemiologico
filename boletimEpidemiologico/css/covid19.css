@@ -1,0 +1,24 @@
+.covid19 {
+    display: flex;
+    flex-direction: row;
+}
+.covid19 img {
+    width: 80px;
+}
+.textoCovid19 {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.textoCovid19 strong {
+    color: #92d6f2;
+}
+.textoCovid19 h1 {
+    font-size: 35px;
+    margin-top: -8px;
+}
+.textoCovid19 p {
+    font-size: 25px;
+}
