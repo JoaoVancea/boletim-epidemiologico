@@ -1,6 +1,6 @@
 .informacoes {
     color: #fff;
-    background: rgba(152,187,206, 0.9);
+    background: rgba(152,187,206, 0.6);
     width: 550px;
     height: 350px;
     display: flex;
@@ -55,6 +55,7 @@
 .colunaPrincipal {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 /* box óbitos descartados */
@@ -166,15 +167,21 @@
     font-size: 45px;
     margin-top: 10px;
 }
-/* linha setinhas */
 
 /* linha secundária confirmados */
 .linhaConfirmadosSecundaria {
     display: flex;
-
+    justify-content: space-between;
+    margin-left: 33px;
 }
 /* box recuperados */
 .recuperados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxRecuperados {
     background-color: #fe6565;
     height: 60px;
     width: 80px;
@@ -193,6 +200,12 @@
 
 /* box em recuperação */
 .emRecuperacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxEmRecuperacao {
     background-color: #9a0000;
     height: 60px;
     width: 80px;
@@ -214,6 +227,12 @@
 
 /* box óbitos */
 .obitos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxObitos {
     background-color: #000000;
     height: 60px;
     width: 80px;
@@ -221,6 +240,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -9px;
 }
 .obitos h1 {
     font-size: 40px;
@@ -230,4 +250,22 @@
     font-size: 25px;
     margin-top: -15px;
     margin-bottom: 5px;
+}
+/* setas baixo */
+.setasBaixo1 {
+    color: #9a0000;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.setasBaixo2 {
+    color: #9a0000;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: -12px;
+}
+.setasBaixo3 {
+    color: #9a0000;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 0px;
 }
