@@ -1,9 +1,11 @@
 .informacoes {
     color: #fff;
-    background-color: #98bbce;
-    width: 500px;
-    height: 400px;
+    background: rgba(152,187,206, 0.9);
+    width: 550px;
+    height: 350px;
     display: flex;
+    padding: 7px;
+    margin-top: -8px;
 }
 
 /* box casos notificados */
@@ -20,7 +22,7 @@
     font-size: 68px;
 }
 .casosNotificados p {
-    font-size: 25px;
+    font-size: 30px;
 }
 #casos {
     margin-top: 0px;
@@ -28,5 +30,18 @@
 }
 
 /* box descartados*/
-
-
+.casosDescartados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #029834;
+    height: 60px;
+    width: 260px;
+}
+.casosDescartados h1{
+    font-size: 50px;
+}
+.casosDescartados p {
+    font-size: 40px;
+}
