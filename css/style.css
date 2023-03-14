@@ -1,0 +1,18 @@
+@import url(/boletimEpidemiologico/css/titulo.css);
+@import url(/boletimEpidemiologico/css/covid19.css);
+@import url(/boletimEpidemiologico/css/informacoes.css);
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue";
+}
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ 

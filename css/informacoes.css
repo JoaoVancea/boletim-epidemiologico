@@ -1,0 +1,271 @@
+.informacoes {
+    color: #fff;
+    background: rgba(152,187,206, 0.6);
+    width: 550px;
+    height: 350px;
+    display: flex;
+    padding: 7px;
+    margin-top: -8px;
+    justify-content: space-between
+}
+
+/* box casos notificados */
+.casosNotificados    {
+    background-color: #ff6634;
+    width: 130px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.casosNotificados h1 {
+    font-size: 68px;
+}
+.casosNotificados p {
+    font-size: 30px;
+}
+#casos {
+    margin-top: 0px;
+    margin-bottom: -10px;
+}
+
+/* box descartados*/
+.linhaDescartados {
+    display: flex;
+    align-items: center;
+}
+.casosDescartados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #029834;
+    height: 60px;
+    width: 260px;
+}
+.casosDescartados h1{
+    font-size: 50px;
+}
+.casosDescartados p {
+    font-size: 40px;
+}
+
+/* coluna principal */
+.colunaPrincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* box óbitos descartados */
+.obitosDescartados {
+    background-color: #029834;
+    width: 100px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+.obitosDescartados h1 {
+    font-size: 30px;
+}
+.obitosDescartados p {
+    font-size: 15px;
+}
+#obitos {
+    margin-top: -10px;
+    margin-bottom: -6px;
+}
+#setaVerde {
+    font-size: 25px;
+    margin-right: -21px;
+    margin-left: -1px;
+    color: #029834;
+    font-weight: bolder;
+}
+#setaLaranja {
+    font-size: 40px;
+    margin-left: -5px;
+    margin-right: -1px;
+    color: #ff6634;
+    font-weight: bolder;
+}
+
+/* box suspeitos */
+.linhaSuspeitos {
+    display: flex;
+    align-items: center;
+}
+.casosSuspeitos {
+    background-color: #c79f02;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 60px;
+    width: 260px;
+}
+.casosSuspeitos h1 {
+    font-size: 70px;
+    margin-top: 5px;
+}
+.casosSuspeitos p {
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+/* box óbitos suspeitos */
+.obitosSuspeitos {
+    background-color: #666666;
+    width: 100px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+.obitosSuspeitos h1 {
+    font-size: 35px;
+    margin-top: -3px;
+}
+.obitosSuspeitos p {
+    font-size: 15px;
+}
+#setaAmarela {
+    font-size: 25px;
+    margin-right: -21px;
+    margin-left: -1px;
+    color: #c79f02;
+    font-weight: bolder;
+}
+#obitosSuspeitos {
+    margin-top: -12px;
+    margin-bottom: -6px;
+}
+
+/* box confirmados */
+.linhaConfirmados {
+    display: flex;
+
+}
+.boxConfirmados {
+    background-color: #9a0000;
+    width: 383px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.boxConfirmados h1 {
+    font-size: 65px;
+    margin-top: 5px;
+}
+.boxConfirmados p {
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+/* linha secundária confirmados */
+.linhaConfirmadosSecundaria {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 33px;
+}
+/* box recuperados */
+.recuperados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxRecuperados {
+    background-color: #fe6565;
+    height: 60px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.recuperados h1 {
+    font-size: 40px;
+}
+.recuperados p {
+    font-size: 17px;
+    margin-top: -15px;
+}
+
+/* box em recuperação */
+.emRecuperacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxEmRecuperacao {
+    background-color: #9a0000;
+    height: 60px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.emRecuperacao h1 {
+    font-size: 35px;
+    margin-bottom: -12px;
+}
+.emRecuperacao p {
+    font-size: 15px;
+}
+#recuperacao {
+    margin-top: -7px;
+}
+
+/* box óbitos */
+.obitos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxObitos {
+    background-color: #000000;
+    height: 60px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -9px;
+}
+.obitos h1 {
+    font-size: 40px;
+    margin-top: 5px;
+}
+.obitos p {
+    font-size: 25px;
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+/* setas baixo */
+.setasBaixo1 {
+    color: #9a0000;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.setasBaixo2 {
+    color: #9a0000;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: -12px;
+}
+.setasBaixo3 {
+    color: #9a0000;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 0px;
+}
